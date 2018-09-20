@@ -6,7 +6,10 @@
     "Nightmare": {
       "url": "https://katalon-demo-cura.herokuapp.com",
       "windowSize":"1366x768",
+      "restart":false,
+      "keepBrowserState":true,
       "keepCookies":true
+      
     }
   },
   "include": {

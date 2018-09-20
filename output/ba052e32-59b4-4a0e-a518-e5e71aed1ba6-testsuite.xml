@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537425186605' stop='1537425202229'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537425186607' status='failed' stop='1537425201252'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537425188817' status='passed' stop='1537425194936'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425194936' status='passed' stop='1537425194958'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425194958' status='passed' stop='1537425196078'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425196078' status='passed' stop='1537425196086'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425196086' status='passed' stop='1537425196087'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425196087' status='passed' stop='1537425197403'>
+                    <name>I fill field "#txt-username", "John Doe"</name>
+                    <title>I fill field "#txt-username", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425197403' status='passed' stop='1537425199716'>
+                    <name>I fill field "#txt-password", "ThisIsNotAPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotAPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425199716' status='passed' stop='1537425200223'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425200223' status='passed' stop='1537425201224'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425201224' status='passed' stop='1537425201234'>
+                    <name>I dont see "Login failed! Please ensure the username and password are valid."</name>
+                    <title>I dont see "Login failed! Please ensure the username and password are valid."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425201234' status='passed' stop='1537425201238'>
+                    <name>I see "Make Appointment"</name>
+                    <title>I see "Make Appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537425201238' status='failed' stop='1537425201249'>
+                    <name>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</name>
+                    <title>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='c57a1899-1346-4e8e-a37e-0edd33423b70-attachment.png' type='image/png' size='29582'/>
+            </attachments>
+            <failure>
+                <message>Element () is not accessible</message>
+                <stack-trace>Error: Element () is not accessible
+                    at Object.codeceptjs.fetchElement (&lt;anonymous>:26:35)
+                    at fn (&lt;anonymous>:6:30)
+                    at javascript (&lt;anonymous>:38:21)
+                    at &lt;anonymous>:53:3
+                    at EventEmitter.electron.ipcRenderer.on (C:\Users\user\AppData\Roaming\npm\node_modules\nightmare\node_modules\electron\dist\resources\electron.asar\renderer\init.js:63:28)
+                    at emitMany (events.js:146:13)
+                    at EventEmitter.emit (events.js:223:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
