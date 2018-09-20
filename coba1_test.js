@@ -38,7 +38,7 @@ Scenario('Buat Janji', async (I) => {
     I.click('#txt_comment')
     I.fillField('#txt_comment', my_profesi)
     I.click('#btn-book-appointment')
-    I.wait(1)
+    I.wait(2)
     I.see('Appointment Confirmation')
     I.click('.btn.btn-default')
     I.see('Make Appointment')
